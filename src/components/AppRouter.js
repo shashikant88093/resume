@@ -5,7 +5,7 @@ import Education from "../components/Education";
 import Skills from "../components/Skills";
 import Interests from "../components/Interests";
 import Awards from "../components/Awards";
-import "../assets/css/index.css";
+import "../assets/css/AppRouter.css";
 import Image from "../image/photo.jpg"
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -20,13 +20,13 @@ class AppRouters extends React.Component {
       <Router>
         <div>
           <nav
-            className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+            className="navbar navbar-expand-lg navbar-light bg-info fixed-top"
             id="sideNav"
           >
             <Link className="navbar-brand js-scroll-trigger" to="#page-top">
               <span>
                 <img
-                  className="img-fluid img-profile rounded-circle mx-auto mb-2"
+                  className="img-fluid img-profile rounded-circle mx-auto mb-2 rotate"
                   src={Image}
                   alt=""
                 />
@@ -70,7 +70,7 @@ class AppRouters extends React.Component {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link js-scroll-trigger" to="/Awards">
-                    Cartification
+                    Certification
                   </Link>
                 </li>
                 <li className="nav-item">

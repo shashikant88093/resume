@@ -35,7 +35,7 @@ class Skills extends React.Component {
                         aria-valuemax="100 "
                         style={{ width: "80%" }}
                       >
-                        <span className="bar-width ">80%</span>
+                        <span className="bar-width ">80</span>
                       </div>
                     </div>
                   </div>
@@ -50,9 +50,9 @@ class Skills extends React.Component {
                         aria-valuenow="60 "
                         aria-valuemin="0 "
                         aria-valuemax="100 "
-                        style={{ width: "90%" }}
+                        style={{ width: "80%" }}
                       >
-                        <span className="bar-width ">90%</span>
+                        <span className="bar-width ">80</span>
                       </div>
                     </div>
                   </div>
@@ -67,9 +67,9 @@ class Skills extends React.Component {
                         aria-valuenow="80 "
                         aria-valuemin="0 "
                         aria-valuemax="100 "
-                        style={{ width: "90%" }}
+                        style={{ width: "80%" }}
                       >
-                        <span className="bar-width ">90%</span>
+                        <span className="bar-width ">80</span>
                       </div>
                     </div>
                   </div>
@@ -81,12 +81,12 @@ class Skills extends React.Component {
                       <div
                         className="progress-bar color4 "
                         role="progressbar"
-                        aria-valuenow="80 "
+                        aria-valuenow="50 "
                         aria-valuemin="0 "
                         aria-valuemax="100 "
-                        style={{ width: "60%" }}
+                        style={{ width: "50%" }}
                       >
-                        <span className="bar-width ">60%</span>
+                        <span className="bar-width ">50</span>
                       </div>
                     </div>
                   </div>
@@ -101,9 +101,9 @@ class Skills extends React.Component {
                         aria-valuenow="80 "
                         aria-valuemin="0 "
                         aria-valuemax="100 "
-                        style={{ width: "80%" }}
+                        style={{ width: "60%" }}
                       >
-                        <span className="bar-width ">80%</span>
+                        <span className="bar-width ">60</span>
                       </div>
                     </div>
                   </div>
@@ -118,9 +118,9 @@ class Skills extends React.Component {
                         aria-valuenow="80 "
                         aria-valuemin="0 "
                         aria-valuemax="100 "
-                        style={{ width: "70%" }}
+                        style={{ width: "60%" }}
                       >
-                        <span className="bar-width ">70%</span>
+                        <span className="bar-width ">60</span>
                       </div>
                     </div>
                   </div>
@@ -135,9 +135,9 @@ class Skills extends React.Component {
                         aria-valuenow="80 "
                         aria-valuemin="0 "
                         aria-valuemax="100 "
-                        style={{ width: "80%" }}
+                        style={{ width: "70%" }}
                       >
-                        <span className="bar-width ">80%</span>
+                        <span className="bar-width ">70</span>
                       </div>
                     </div>
                   </div>
@@ -148,17 +148,49 @@ class Skills extends React.Component {
                     <div className="progress ">
                       <div
                         className="progress-bar color4 "
-                        role="progressbar"
+                        
                         aria-valuenow="80 "
                         aria-valuemin="0 "
                         aria-valuemax="100 "
-                        style={{ width: "80%" }}
+                        style={{ width: "50%" }}
                       >
-                        <span className="bar-width ">80%</span>
+                        <span className="bar-width ">50</span>
                       </div>
                     </div>
                   </div>
                   <br />
+                  <div className="progress-wrap ">
+                    <h3>AWS</h3>
+                    <br />
+                    <div className="progress ">
+                      <div
+                        className="progress-bar color4 "
+                        role="progressbar"
+                        aria-valuenow="80 "
+                        aria-valuemin="0 "
+                        aria-valuemax="100 "
+                        style={{ width: "40%" }}
+                      >
+                        <span className="bar-width ">40</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="progress-wrap ">
+                    <h3>JavaScript</h3>
+                    <br />
+                    <div className="progress ">
+                      <div
+                        className="progress-bar color4 "
+                        role="progressbar"
+                        aria-valuenow="80 "
+                        aria-valuemin="0 "
+                        aria-valuemax="100 "
+                        style={{ width: "60%" }}
+                      >
+                        <span className="bar-width ">60</span>
+                      </div>
+                    </div>
+                  </div>
                   <div className="progress-wrap ">
                     <h3>Wordpress</h3>
                     <br />
@@ -169,9 +201,9 @@ class Skills extends React.Component {
                         aria-valuenow="80 "
                         aria-valuemin="0 "
                         aria-valuemax="100 "
-                        style={{ width: "70%" }}
+                        style={{ width: "60%" }}
                       >
-                        <span className="bar-width ">70%</span>
+                        <span className="bar-width ">60</span>
                       </div>
                     </div>
                   </div>
