@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.12dbd4db.chunk.css",
-    "main.js": "/resume/static/js/main.cd4187af.chunk.js",
-    "main.js.map": "/resume/static/js/main.cd4187af.chunk.js.map",
+    "main.css": "/resume/static/css/main.c3cd5970.chunk.css",
+    "main.js": "/resume/static/js/main.80863bdc.chunk.js",
+    "main.js.map": "/resume/static/js/main.80863bdc.chunk.js.map",
     "runtime~main.js": "/resume/static/js/runtime~main.30522d0f.js",
     "runtime~main.js.map": "/resume/static/js/runtime~main.30522d0f.js.map",
-    "static/js/2.67a3edcb.chunk.js": "/resume/static/js/2.67a3edcb.chunk.js",
-    "static/js/2.67a3edcb.chunk.js.map": "/resume/static/js/2.67a3edcb.chunk.js.map",
+    "static/js/2.9fb95974.chunk.js": "/resume/static/js/2.9fb95974.chunk.js",
+    "static/js/2.9fb95974.chunk.js.map": "/resume/static/js/2.9fb95974.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.4a9bd39413b28321530a3a5ef19deb9e.js": "/resume/precache-manifest.4a9bd39413b28321530a3a5ef19deb9e.js",
+    "precache-manifest.e1a5ec34663f1e9e71e01b3a1b5b9fca.js": "/resume/precache-manifest.e1a5ec34663f1e9e71e01b3a1b5b9fca.js",
     "service-worker.js": "/resume/service-worker.js",
-    "static/css/main.12dbd4db.chunk.css.map": "/resume/static/css/main.12dbd4db.chunk.css.map"
+    "static/css/main.c3cd5970.chunk.css.map": "/resume/static/css/main.c3cd5970.chunk.css.map",
+    "static/media/am.gif": "/resume/static/media/am.a11a4af0.gif",
+    "static/media/angular.png": "/resume/static/media/angular.22925b94.png",
+    "static/media/aws.jpeg": "/resume/static/media/aws.d8a7d22b.jpeg",
+    "static/media/dev.gif": "/resume/static/media/dev.ec1e4884.gif",
+    "static/media/ds.jpeg": "/resume/static/media/ds.6a92d0c5.jpeg",
+    "static/media/form.png": "/resume/static/media/form.58c9f561.png",
+    "static/media/game.png": "/resume/static/media/game.6ff3e06b.png",
+    "static/media/js.jpeg": "/resume/static/media/js.c1d37c57.jpeg",
+    "static/media/movies.png": "/resume/static/media/movies.a07a52cb.png",
+    "static/media/photo.jpg": "/resume/static/media/photo.75f244a1.jpg",
+    "static/media/python.jpeg": "/resume/static/media/python.bb89812b.jpeg",
+    "static/media/udemy.jpg": "/resume/static/media/udemy.8b26ac5b.jpg"
   }
 }
