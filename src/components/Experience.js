@@ -17,14 +17,11 @@ class Experience extends React.Component {
             <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="resume-content">
                 <h3 className="mb-0">Full Stack Developer</h3>
-                <div className="subheading mb-3">GUVI</div>
+                <div className="subheading mb-3">GUVi</div>
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation X is on the runway
-                  heading towards a streamlined cloud solution. User generated
-                  content in real-time will have multiple touchpoints for
-                  offshoring.
+                  I join guvi zen class program to become Full-Stack developer .
+                  I did lot of mini projects while the zen program. My experience was good in guvi and the  environment  was so competative .
+
                 </p>
               </div>
               <div className="resume-date text-md-right">
@@ -35,13 +32,11 @@ class Experience extends React.Component {
             <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="resume-content">
                 <h3 className="mb-0">WordPress Developer</h3>
-                <div className="subheading mb-3">Iniyas Private Limited</div>
+                <div className="subheading mb-3">iniyas Private Limited</div>
                 <p>
-                  Capitalize on low hanging fruit to identify a ballpark value
-                  added activity to beta test. Override the digital divide with
-                  additional clickthroughs from DevOps. Nanotechnology immersion
-                  along the information highway will close the loop on focusing
-                  solely on the bottom line.
+                  I got internship offer from iniyas Private Limited for the role of WordPress developer. 
+                  Mainly the company work is to  make website for the small scale based business in chennai.
+                  My role was to make the UI for the client and after approvable of UI from th client start implementing that in the WordPress. 
                 </p>
               </div>
               <div className="resume-date text-md-right">

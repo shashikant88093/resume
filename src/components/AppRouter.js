@@ -4,9 +4,9 @@ import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Skills from "../components/Skills";
 import Interests from "../components/Interests";
-import Awards from "../components/Awards";
+import Certification from "../components/Certification";
+import Project from "./project";
 import "../assets/css/AppRouter.css";
-import Image from "../image/photo.jpg"
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
@@ -18,7 +18,7 @@ class AppRouters extends React.Component {
   render() {
     return (
       <Router>
-        <div>
+        <>
           <nav
             className="navbar navbar-expand-lg navbar-light bg-info fixed-top"
             id="sideNav"
@@ -27,7 +27,7 @@ class AppRouters extends React.Component {
               <span>
                 <img
                   className="img-fluid img-profile rounded-circle mx-auto mb-2 rotate"
-                  src={Image}
+                  src="/image/photo.jpg"
                   alt=""
                 />
               </span>
@@ -69,7 +69,12 @@ class AppRouters extends React.Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/Awards">
+                  <Link className="nav-link js-scroll-trigger" to="/Project">
+                    Project
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link js-scroll-trigger" to="/Certification">
                     Certification
                   </Link>
                 </li>
@@ -85,9 +90,10 @@ class AppRouters extends React.Component {
           <Route path="/Experience" component={Experience} />
           <Route path="/Education" component={Education} />
           <Route path="/Skills" component={Skills} />
-          <Route path="/Awards" component={Awards} />
+          <Route path="/Project" component={Project} />
+          <Route path="/Certification" component={Certification} />
           <Route path="/Interests" component={Interests} />
-        </div>
+        </>
       </Router>
     );
   }

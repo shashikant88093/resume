@@ -4,11 +4,13 @@ import { faLinkedin,faGithub,faFacebook,faTwitter} from '@fortawesome/fontawesom
 import "../assets/css/about.css";
 
 
-import Image from "../image/photo.jpg"
+
+
 
 
 
 class About extends React.Component {
+
   render() {
     return (
       <div className="container-fluid p-0">
@@ -16,7 +18,9 @@ class About extends React.Component {
         <br/>
         <div className="row">
       
-            <div className="d-flex justify-content-center mt-5 mar"><img  className="image" src={Image}/></div>
+            <div className="d-flex justify-content-center mt-5 mar">
+              <img alt="myImage" className="image" src="../image/photo.jpg"/>
+              </div>
               
            
         </div>
@@ -24,15 +28,18 @@ class About extends React.Component {
           className="resume-section p-3 p-lg-5 d-flex align-items-center"
           id="about"
         >
+          
           <div className="w-100">
-            <h1 className="mb-0">
+            <h1 className="mb-0 ">
               SHashikant
-              <span className="text-primary">Kumar</span>
+               <span className="text-primary ml-1"> Kumar</span>
             </h1>
             <div className="subheading mb-5">
               House Number = 1,Nehru Street ,Kanagam Road ,Tharamani Road
               ,Chennai 600113, Tamil Nadu
               <br />
+              DOB:30-07-1996
+              <br/>
               <a href="mailto:name@email.com">
                 shashi94goswami@gmail.com
               </a>
@@ -52,7 +59,11 @@ class About extends React.Component {
               </a>
             </div>
           </div>
+          <div className="d-flex justify-content-right">
+          <img alt="myImage"  src="../image/am.gif"/>
+          </div>
         </section>
+        
       </div>
     );
   }
