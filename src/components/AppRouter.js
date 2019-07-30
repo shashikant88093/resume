@@ -7,6 +7,7 @@ import Interests from "../components/Interests";
 import Certification from "../components/Certification";
 import Project from "./project";
 import "../assets/css/AppRouter.css";
+import photo from "../image/photo.jpg";
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
@@ -17,7 +18,7 @@ class AppRouters extends React.Component {
   }
   render() {
     return (
-      <Router>
+      <Router basename={'/subdirectory'}>
         <>
           <nav
             className="navbar navbar-expand-lg navbar-light bg-info fixed-top"
@@ -27,7 +28,7 @@ class AppRouters extends React.Component {
               <span>
                 <img
                   className="img-fluid img-profile rounded-circle mx-auto mb-2 rotate"
-                  src="/image/photo.jpg"
+                  src={photo}
                   alt=""
                 />
               </span>
@@ -49,50 +50,50 @@ class AppRouters extends React.Component {
             >
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/">
+                  <Link className="nav-link js-scroll-trigger" to={`${process.env.PUBLIC_URL}/`}>
                     About
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/Experience">
+                  <Link className="nav-link js-scroll-trigger" to={`${process.env.PUBLIC_URL}/Experience`}>
                     Experience
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/Education">
+                  <Link className="nav-link js-scroll-trigger" to={`${process.env.PUBLIC_URL}/Education`}>
                     Education
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/Skills">
+                  <Link className="nav-link js-scroll-trigger" to={`${process.env.PUBLIC_URL}/Skills`}>
                     Skills
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/Project">
+                  <Link className="nav-link js-scroll-trigger" to={`${process.env.PUBLIC_URL}/Project`}>
                     Project
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/Certification">
+                  <Link className="nav-link js-scroll-trigger" to={`${process.env.PUBLIC_URL}/Certification`}>
                     Certification
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/Interests" className="nav-link js-scroll-trigger">
+                  <Link to={`${process.env.PUBLIC_URL}/Interests`} className="nav-link js-scroll-trigger">
                     Interests
                   </Link>
                 </li>
               </ul>
             </div>
           </nav>
-          <Route exact path="/" component={About} />
-          <Route path="/Experience" component={Experience} />
-          <Route path="/Education" component={Education} />
-          <Route path="/Skills" component={Skills} />
-          <Route path="/Project" component={Project} />
-          <Route path="/Certification" component={Certification} />
-          <Route path="/Interests" component={Interests} />
+          <Route exact path={`${process.env.PUBLIC_URL}/`} component={About} />
+          <Route path={`${process.env.PUBLIC_URL}/Experience`}component={Experience} />
+          <Route path={`${process.env.PUBLIC_URL}/Education`} component={Education} />
+          <Route path={`${process.env.PUBLIC_URL}/Skills`}component={Skills} />
+          <Route path={`${process.env.PUBLIC_URL}/Project`} component={Project} />
+          <Route path={`${process.env.PUBLIC_URL}/Certification`} component={Certification} />
+          <Route path={`${process.env.PUBLIC_URL}/Interests`} component={Interests} />
         </>
       </Router>
     );

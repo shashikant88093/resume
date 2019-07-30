@@ -1,5 +1,9 @@
 import React from "react";
 import "../assets/css/Project.css";
+import movies from "../image/movies.png";
+import game from "../image/game.png";
+import form from "../image/form.png";
+import angular from "../image/angular.png"
 class Project extends React.Component {
   render() {
     return (
@@ -8,7 +12,7 @@ class Project extends React.Component {
         <div className="row">
           <div className="col-md-6 how-img">
             <img
-              src="/image/movies.png"
+              src={movies}
               className="img-fluid"
               alt=""
             />
@@ -40,7 +44,7 @@ class Project extends React.Component {
           </div>
           <div className="col-md-6 how-img">
             <img
-              src="/image/game.png"
+              src={game}
               className=" img-fluid"
               alt=""
             />
@@ -49,7 +53,7 @@ class Project extends React.Component {
         <div className="row">
           <div className="col-md-6 how-img">
             <img
-              src="/image/form.png"
+              src={form}
               className="img-fluid"
               alt=""
             />
@@ -80,7 +84,7 @@ class Project extends React.Component {
           </div>
           <div className="col-md-6 how-img">
             <img
-              src="/image/angular.png"
+              src={angular}
               className=" img-fluid"
               alt=""
             />

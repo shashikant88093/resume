@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import "../assets/css/Certification.css";
+import js from "../image/js.jpeg";
+import ds from "../image/ds.jpeg";
+import python from "../image/python.jpeg";
+import aws from "../image/aws.jpeg";
+import udemy from "../image/udemy.jpg"
 
 class Certification extends Component {
   state = {};
@@ -15,7 +20,7 @@ class Certification extends Component {
             <div className="card text-center">
               <div className="overflow">
               
-                <img src="/image/python.jpeg" className="card-img-top " alt="" />
+                <img src={python} className="card-img-top " alt="" />
               </div>
               <div className="card-body text-dark">
               
@@ -28,7 +33,7 @@ class Certification extends Component {
           <br/>
             <div className="card text-center">
               <div className="overflow">
-                <img src="/image/js.jpeg" className="card-img-top " alt="" />
+                <img src={js} className="card-img-top " alt="" />
               </div>
               <div className="card-body text-dark">
               
@@ -46,7 +51,7 @@ class Certification extends Component {
             <div className="card text-center">
               <div className="overflow">
               
-                <img src="/image/ds.jpeg" className="card-img-top width " alt="" />
+                <img src={ds} className="card-img-top width " alt="" />
               </div>
               <div className="card-body text-dark">
               
@@ -59,7 +64,7 @@ class Certification extends Component {
           <br/>
             <div className="card text-center">
               <div className="overflow">
-                <img src="/image/aws.jpeg" className="card-img-top " alt="" />
+                <img src={aws} className="card-img-top " alt="" />
               </div>
               <div className="card-body text-dark">
               
@@ -75,7 +80,7 @@ class Certification extends Component {
         <br/>
             <div className="card text-center">
               <div className="overflow">
-                <img src="/image/udemy.jpg" className="card-img-top " alt="" />
+                <img src={udemy} className="card-img-top " alt="" />
               </div>
               <div className="card-body text-dark">
               

@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/Skills.css";
+import dev from "../image/dev.gif"
 
 class Skills extends React.Component {
   render() {
@@ -216,7 +217,7 @@ class Skills extends React.Component {
           </div>
         </div>
         <div className="col-md-3">
-          <img alt="" src="../image/dev.gif" />
+          <img alt="" src={dev} />
         </div>
         <div />
       </div>
