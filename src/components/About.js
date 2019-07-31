@@ -31,12 +31,11 @@ class About extends React.Component {
               <span className="text-primary ml-1"> Kumar</span>
             </h1>
             <div className="subheading mb-5">
-              House Number = 1,Nehru Street ,Kanagam Road ,Tharamani Road
-              ,Chennai 600113, Tamil Nadu
+             
               <br />
               DOB:30-07-1996
               <br />
-              <br />
+            
               Contact No : 8789750652
               <br />
               <a href="mailto:name@email.com">shashi94goswami@gmail.com</a>
