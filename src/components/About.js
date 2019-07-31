@@ -9,8 +9,9 @@ import {
 import "../assets/css/about.css";
 import photo from "../image/photo.jpg";
 import am from "../image/am.gif";
-
+import "../image/css/AppRouter.css";
 class About extends React.Component {
+  
   render() {
     return (
       <div className="container-fluid p-0">
