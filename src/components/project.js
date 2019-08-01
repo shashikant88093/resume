@@ -3,7 +3,8 @@ import "../assets/css/Project.css";
 import movies from "../image/movies.png";
 import game from "../image/game.png";
 import form from "../image/form.png";
-import angular from "../image/angular.png"
+import angular from "../image/angular.png";
+import "../assets/css/AppRouter.css";
 class Project extends React.Component {
   render() {
     return (

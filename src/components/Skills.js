@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css/Skills.css";
-import dev from "../image/dev.gif"
+import dev from "../image/dev.gif";
+import "../assets/css/AppRouter.css";
 
 class Skills extends React.Component {
   render() {

@@ -4,7 +4,8 @@ import js from "../image/js.jpeg";
 import ds from "../image/ds.jpeg";
 import python from "../image/python.jpeg";
 import aws from "../image/aws.jpeg";
-import udemy from "../image/udemy.jpg"
+import udemy from "../image/udemy.jpg";
+import "../assets/css/AppRouter.css";
 
 class Certification extends Component {
   state = {};
