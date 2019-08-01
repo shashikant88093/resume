@@ -9,7 +9,6 @@ import {
 import "../assets/css/about.css";
 import photo from "../image/photo.jpg";
 import am from "../image/am.gif";
-import "../assets/css/AppRouter.css";
 class About extends React.Component {
   render() {
     return (

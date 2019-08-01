@@ -217,7 +217,7 @@ class Skills extends React.Component {
             </div>
           </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-6">
           <img alt="" src={dev} />
         </div>
         <div />
