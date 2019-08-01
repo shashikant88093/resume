@@ -26,7 +26,7 @@ class Project extends React.Component {
             <p className="text-muted">
               I  have use HTML, CSS and Bootstrap for doing this project
               <br/>
-            <a href="https://shashikant88093.github.io/movies/">View Here</a>
+           <button target="_blank"> <a href="https://shashikant88093.github.io/movies/" >View Here</a></button>
             </p>
           </div>
         </div>
@@ -40,7 +40,7 @@ class Project extends React.Component {
               I have used HTMl, CSS, Bootstrap and Js  for creating this game.
               <br/>
 
-             <a href="https://shashikant88093.github.io/js-game/">View Here</a>
+             <button className="" target="_blank"><a href="https://shashikant88093.github.io/js-game/">View Here</a></button>
             </p>
           </div>
           <div className="col-md-6 how-img">
@@ -69,7 +69,7 @@ class Project extends React.Component {
            The form can add, delete and edit. 
            <br/>
 
-             <a href="https://shashikant88093.github.io/formlist/">View Here</a>
+            <button> <a href="https://shashikant88093.github.io/formlist/">View Here</a></button>
             </p>
           </div>
         </div>

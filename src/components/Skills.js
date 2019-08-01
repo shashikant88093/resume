@@ -7,10 +7,11 @@ class Skills extends React.Component {
   render() {
     return (
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-1"></div>
+        <div className="col-md-5">
           <h1 className="text-center">Skills</h1>
           <br />
-          <div className="col-md-11">
+          
             <div className="progress">
               <div
                 data-percentage="0%"
@@ -216,7 +217,7 @@ class Skills extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        
         <div className="col-md-6">
           <img alt="" src={dev} />
         </div>
