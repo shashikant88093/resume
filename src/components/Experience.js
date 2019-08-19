@@ -20,8 +20,9 @@ class Experience extends React.Component {
                 <div className="subheading mb-3">GUVi</div>
                 <p>
                   I join guvi zen class program to become Full-Stack developer .
-                  I did lot of mini projects while the zen program. My experience was good in guvi and the  environment  was so competative .
-
+                  I did lot of mini projects while the zen program. My
+                  experience was good in guvi and the environment was so
+                  competative .
                 </p>
               </div>
               <div className="resume-date text-md-right">
@@ -34,9 +35,11 @@ class Experience extends React.Component {
                 <h3 className="mb-0">WordPress Developer</h3>
                 <div className="subheading mb-3">iniyas Private Limited</div>
                 <p>
-                  I got internship offer from iniyas Private Limited for the role of WordPress developer. 
-                  Mainly the company work is to  make website for the small scale based business in chennai.
-                  My role was to make the UI for the client and after approvable of UI from th client start implementing that in the WordPress. 
+                  I got internship offer from iniyas Private Limited for the
+                  role of WordPress developer. Mainly the company work is to
+                  make website for the small scale based business in chennai. My
+                  role was to make the UI for the client and after approvable of
+                  UI from th client start implementing that in the WordPress.
                 </p>
               </div>
               <div className="resume-date text-md-right">

@@ -1,35 +1,18 @@
-
-@media Screen and (max-width:990px){
-    
-    .image{
-        display: block !important;
-        width:50% !important;
-        height: 70% !important;
-        transform: rotate(-90deg) !important;
-        border-radius: 50% !important;
-        margin-top: 10px;
-
-        
-    }
-    
-
+.image {
+  width: 100%;
 }
-
-.image{
-    display: none;
+h1 {
+  animation: type 3s steps(16);
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid black;
+  width: 16ch;
 }
-h1{
-    animation:type 3s steps(16);
-    overflow: hidden;
-    white-space: nowrap;
-    border-right:4px solid black;
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
     width: 16ch;
-}
-@keyframes type{
-    0%{
-        width: 0ch;
-    }
-    100%{
-        width:16ch;
-    }
+  }
 }
