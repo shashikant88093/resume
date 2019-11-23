@@ -147,3 +147,6 @@
 .image {
   width: 80%;
 }
+h1 {
+  text-align: none !important;
+}

@@ -5,6 +5,7 @@ body {
   padding-top: 54px;
   color: #868e96;
   overflow-x: hidden;
+  background-color: #FEFEFC !important;
 }
 
 @media (min-width: 992px) {

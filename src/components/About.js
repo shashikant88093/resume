@@ -7,7 +7,7 @@ import {
   faTwitter
 } from "@fortawesome/fontawesome-free-brands";
 import "../assets/css/about.css";
-import am from "../image/am.gif";
+import am from "../image/am.png";
 class About extends React.Component {
   render() {
     return (
