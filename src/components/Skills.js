@@ -72,18 +72,7 @@ class Skills extends React.Component {
               ReactJS
             </div>
           </div>
-          <div className="progress">
-            <div
-              data-percentage="0%"
-              style={{ width: "50%" }}
-              className="progress-bar progress-bar-danger"
-              role="progressbar"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              Angular 8
-            </div>
-          </div>
+         
           <div className="progress">
             <div
               data-percentage="0%"
@@ -144,18 +133,7 @@ class Skills extends React.Component {
               Basic Data-Structure
             </div>
           </div>
-          <div className="progress">
-            <div
-              data-percentage="0%"
-              style={{ width: "40%" }}
-              className="progress-bar progress-bar-danger"
-              role="progressbar"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              C++
-            </div>
-          </div>
+         
           <div className="progress">
             <div
               data-percentage="0%"
@@ -168,18 +146,7 @@ class Skills extends React.Component {
               Python
             </div>
           </div>
-          <div className="progress">
-            <div
-              data-percentage="0%"
-              style={{ width: "60%" }}
-              className="progress-bar progress-bar-danger"
-              role="progressbar"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              Wordpress
-            </div>
-          </div>
+         
           <div className="progress">
             <div
               data-percentage="0%"
@@ -192,6 +159,18 @@ class Skills extends React.Component {
               NPM
             </div>
           </div>
+          <div className="progress">
+          <div
+            data-percentage="0%"
+            style={{ width: "70%" }}
+            className="progress-bar progress-bar-danger"
+            role="progressbar"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            YARN
+          </div>
+        </div>
           <div className="progress">
             <div
               data-percentage="0%"
