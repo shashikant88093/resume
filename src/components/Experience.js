@@ -27,7 +27,7 @@ class Experience extends React.Component {
                 <h3 className="mb-0">Mern Stack Developer</h3>
                 <div className="subheading mb-3">Unifo Solution Private Limited </div>
                 <p>
-                  I join Unifo as Front-End developer and Now Exploring Backend with lot of other Technology
+                  I join Unifo as Front-End developer. Here I worked on Node js and now exploring AWS.
                 </p>
               </div>
               <div className="resume-date text-md-right">
@@ -42,8 +42,8 @@ class Experience extends React.Component {
                 <h3 className="mb-0">Full Stack Developer</h3>
                 <div className="subheading mb-3">Stackup Technology</div>
                 <p>
-                  I join Stackup  as UI/UX Designer but further , I processed with <b>Front-End</b> development . I also got chance to explore the <b>Back-End</b> 
-                  with technolgy like node js , express js and django. I have done one Full-Stack Web-App for them using Node js , Python, React js , vbs script and Sql DB  apart of that, I  work on there cloub project </p>
+                  I join Stackup  as UI/UX Designer but further , I processed with <b>Front-End</b> development . I also got chance to explore the <b>Back-End</b>
+                   &nbsp;  with technology like node js , express js and django. I have done one Full-Stack Web-App for them using Node js , Python, React js , vbs script and Sql DB  apart of that, I  work on there cloud project </p>
               </div>
               <div className="resume-date text-md-right">
                 <span className="text-primary">September 2019 - October 2020</span>
@@ -57,10 +57,10 @@ class Experience extends React.Component {
                 <h3 className="mb-0">Full Stack Developer</h3>
                 <div className="subheading mb-3">GUVi</div>
                 <p>
-                  I join guvi zen class program to become Full-Stack developer .
+                  I join Guvi zen class program to become Full-Stack developer .
                   I did lot of mini projects while the zen program. My
-                  experience was good in guvi and the environment was so
-                  competative .
+                  experience was good in Guvi and the environment was so
+                  competitive .
                 </p>
               </div>
               <div className="resume-date text-md-right">
@@ -73,12 +73,12 @@ class Experience extends React.Component {
             <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="resume-content">
                 <h3 className="mb-0">WordPress Developer</h3>
-                <div className="subheading mb-3">iniyas Private Limited</div>
+                <div className="subheading mb-3">Iniyas Private Limited</div>
                 <p>
-                  I got internship offer from iniyas Private Limited for the
+                  I got internship offer from Iniyas Private Limited for the
                   role of WordPress developer. Mainly the company work is to
                   make website for the small scale based business in chennai. My
-                  role was to make the UI for the client and after approvable of
+                  role was to make the UI for the client and after approval of
                   UI from th client start implementing that in the WordPress.
                 </p>
               </div>
