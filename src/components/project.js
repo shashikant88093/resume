@@ -5,6 +5,7 @@ import game from "../image/game.png";
 import form from "../image/form.png";
 import angular from "../image/angular.png";
 import "../assets/css/AppRouter.css";
+import Ecommerce from "../image/ecommerce.png";
 class Project extends React.Component {
   render() {
     return (
@@ -92,9 +93,29 @@ class Project extends React.Component {
           </div>
         </div>
       </div>
-      <div className="text-center">
-        <h2>This Resume is created by ReactJs</h2>
+      <div className="row">
+      <div className="col-md-6 how-img">
+        <img
+          src={Ecommerce}
+          className="img-fluid"
+          alt=""
+        />
       </div>
+      <div className="col-md-6">
+        <h4>Ecommerce</h4>
+        <h4 className="subheading">
+         Ecommerce website
+
+        </h4>
+        <p className="text-muted">
+       can add cart  and checkout.
+       <br/>
+
+        <button> <a href="https://shashikant88093.github.io/redux-ecom/">View Here</a></button>
+        </p>
+      </div>
+      <br/>
+    </div>
       </div>
     );
   }
