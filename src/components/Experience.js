@@ -43,7 +43,7 @@ class Experience extends React.Component {
                 <div className="subheading mb-3">Stackup Technology</div>
                 <p>
                   I join Stackup  as UI/UX Designer but further , I processed with <b>Front-End</b> development . I also got chance to explore the <b>Back-End</b>
-                   &nbsp;  with technology like node js , express js and django. I have done one Full-Stack Web-App for them using Node js , Python, React js , vbs script and Sql DB  apart of that, I  work on there cloud project </p>
+                   &nbsp;  with technology like node js , express js and django. I have done one Full-Stack Web-App for them using Node js , Python, React js , vbs script and Sql DB  apart of that, I  work on Ansible cloud project </p>
               </div>
               <div className="resume-date text-md-right">
                 <span className="text-primary">September 2019 - October 2020</span>
